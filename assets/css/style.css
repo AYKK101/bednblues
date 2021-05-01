@@ -1386,26 +1386,4 @@ section {
   background: -o-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
   background: linear-gradient(to right, #ff6a5b 0%, #ff4d7e 100%);
 }
-.flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  border: 1px solid silver;
-  -ms-box-orient: horizontal;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: flex;
-}
-
-.nowrap  { 
-  -webkit-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.wrap    { 
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-}  
+img { margin: 1em 2em 5em 4em; }
