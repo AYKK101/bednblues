@@ -1386,3 +1386,11 @@ section {
   background: -o-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
   background: linear-gradient(to right, #ff6a5b 0%, #ff4d7e 100%);
 }
+h1,
+h3 {
+    text-align: center;
+}
+  
+h4 {
+    font-weight: bold;
+}
