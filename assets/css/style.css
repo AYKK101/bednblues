@@ -1386,19 +1386,6 @@ section {
   background: -o-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
   background: linear-gradient(to right, #ff6a5b 0%, #ff4d7e 100%);
 }
-.flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: flex;
+img {
+  float: left;
 }
-.center { 
-  justify-content: center; 
-}  
-.center li {
-  background: rgb(255, 255, 255);
-}
-
-.space-between { 
-  justify-content: space-between; 
-}  
