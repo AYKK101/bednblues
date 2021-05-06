@@ -1392,3 +1392,6 @@ section {
   background: -o-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
   background: linear-gradient(to right, #ff6a5b 0%, #ff4d7e 100%);
 }
+img.kleinephoto{
+  padding: 10px;
+}
