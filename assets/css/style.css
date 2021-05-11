@@ -90,8 +90,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 90px;
   transition: all 0.5s;
   z-index: 997;
-  background: linear-gradient(45deg, #0019fd, #0019fd
-  );
+  background: linear-gradient(45deg, #c1e7f3, #286fb3)
+  
 }
 
 #header.header-transparent {
@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: linear-gradient(45deg, #0019fd, #0019fd);
+  background: linear-gradient(45deg, #c1e7f3, #286fb3);
   height: 70px;
   transition: all 0.5s;
 }
