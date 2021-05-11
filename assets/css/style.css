@@ -41,7 +41,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  margin: 0 0 20px 0;
+  margin: 0 0 32px 0;
   padding: 0;
 }
 
@@ -90,7 +90,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 90px;
   transition: all 0.5s;
   z-index: 997;
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #0019fd, #0019fd
+  );
 }
 
 #header.header-transparent {
@@ -98,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #0019fd, #0019fd);
   height: 70px;
   transition: all 0.5s;
 }
