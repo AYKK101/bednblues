@@ -1400,3 +1400,6 @@ img.kleinephoto{
 img.linksestand{
   float: left;
   }
+  .advanced-feature-img-right{
+    width: 100%;
+  }
