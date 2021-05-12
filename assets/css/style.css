@@ -1400,6 +1400,10 @@ img.kleinephoto{
 img.linksestand{
   float: left;
   }
-  .advanced-feature-img-right{
-    width: 100%;
-  }
+  @media only screen and (max-width: 600px) {
+    
+  
+}
+.advanced-feature-img-right{
+  width: 100%;
+}
