@@ -33,7 +33,7 @@
 
   <!-- ======= Header ======= -->
   
-  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+  <header id="header" class="fixed-top d-flex align-items-center header-#286fb3">
   
     
     <div class="container d-flex justify-content-between align-items-center">
@@ -65,7 +65,7 @@
              
               
           
-          <a class="nav-link scrollto" href="Fietsen.html"></a>
+          <a class="nav-link scrollto" href="contact.html"></a>
         
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -73,19 +73,15 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <img class="advanced-feature-img-right wow fadeInRight" src="achtergrond-photo.jpg"  alt="">
-    <div class="hero-text" data-aos="zoom-out">
-      <h2>Contact</h2>
-      <p></p>
-      <a href="Fietsen.html" class="btn-get-started scrollto">scroll beneden</a>
-    </div>
+
+
+  
     
 
    
 
-  </section><!-- End Hero Section -->
-
+ 
+ 
   <main id="main">
 
    
@@ -97,20 +93,36 @@
           <div class="container">
            <br><br>
            
+
+
            <h4>Bedankt voor uw interesse.<br><br></h4>
             <h4>Stuur ons uw vraag of opmerking en we zullen dan zo snel mogelijk contact met u opnemen.<br><br></h4>
            <h4><a href="tel:+320486054338">+32(0)486054338</a></h4>
+           <form id="fs-frm" name="complaint-form" action="mailto:asfandyar_201116@icloud.com" method="post" enctype="text/plain">
+            <fieldset > 
+              <label for="full-name">Naam</label>
+              <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+              <label for="email-address">Mail-Adres </label>
+              <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+              <label for="telephone">telefoon nummer</label>
+              <input type="telephone" name="telephone" id="telephone" placeholder="+32">
+              <label for="complaint">Complaint</label>
+              <textarea rows="6" name="complaint" id="complaint" placeholder="typ-Hier" required=""></textarea>
+              <input type="hidden" name="_subject" id="email-subject" value="">
+            </fieldset>
+            <input type="submit" value="File Complaint">
+          </form>
             
-                        <img src="achtergrond-photo.jpg" 
-                        width="500" height="300" alt=""/>
-                        <form action="https://formspree.io/f/{form_id}" method="post">
-                          <label for="email">Your Email</label>
-                          <input name="Email" id="email" type="email">
-                          <button type="submit">Submit</button>
-                        </form>
-     
+                  
+                        
+                     
+                        
+                        
+                  
                       
-                      </div>            
+                   
+                          </div>
+                       
         </section>
         
     
@@ -135,7 +147,7 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer">
+ 
     <div class="container">
       <div class="row">
         <div class="col-lg-6 text-lg-start text-center">
@@ -150,7 +162,6 @@
         </div>
       </div>
   
-  </footer><!-- End  Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-chevron-up"></i></a>
 
